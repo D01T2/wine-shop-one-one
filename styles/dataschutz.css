@@ -1,0 +1,24 @@
+.dataschultz {
+  width: 90%;
+  padding: 1em;
+  line-height: 1.5em;
+  color: var(--clr-white);
+  margin: 0 auto;
+}
+.dataschultz h1 {
+  text-align: center;
+  color: var(--clr-white);
+}
+
+.dataschultz h2 {
+  color: var(--clr-white);
+  padding: 1em;
+} 
+
+.dataschultz h3,
+.dataschultz h4,
+.dataschultz ul,
+.dataschultz p {
+  margin-left: 2em;
+  color: var(--clr-white);
+}

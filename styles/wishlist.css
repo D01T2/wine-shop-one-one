@@ -1,0 +1,81 @@
+.products .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 33rem);
+  gap:1.5rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.products .box-container .box{
+  position: relative;
+  background-color: var(--clr-white);
+  border-radius: .5rem;
+  padding:2rem;
+  overflow: hidden;
+}
+
+.products .box-container .box img{
+  height: 20rem;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.products .box-container .box .fa-heart {
+  position: absolute;
+  top:1rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.2rem;
+  font-size: 2rem;
+  background-color: var(--clr-white);
+  border-radius: .5rem;
+  text-align: center;
+  color:var(--black);
+  cursor: pointer;
+  transition: .2s linear;
+}
+
+.products .box-container .box .fa-heart{
+  right: -6rem;
+}
+
+.products .box-container .box .fa-heart:hover {
+  background-color: var(--clr-black);
+  color:var(--clr-white);
+}
+
+.products .box-container .box:hover .fa-heart{
+  right:1rem;
+}
+
+.products .box-container .box .name{
+  font-size: 2rem;
+  color:var(--clr-deep-black);
+}
+
+.products .box-container .box .flex{
+  display: flex;
+  align-items: center;
+  gap:1rem;
+}
+
+.products .box-container .box .flex .qty{
+  width: 7rem;
+  padding:1rem;
+  font-size: 1.8rem;
+  color:var(--clr-deep-black);
+  border-radius: .5rem;
+}
+
+.products .box-container .box .flex .price{
+  font-size: 2rem;
+  margin-right: auto;
+}
+
+.products .wishlist-total p{
+  color: var(--clr-white);
+  text-align: center;
+  font-size: 2em;
+  margin: 1em auto;
+}

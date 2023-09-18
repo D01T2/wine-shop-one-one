@@ -1,0 +1,22 @@
+/* impressum site */
+.impressum {
+  width: 90%;
+  line-height: 2;
+  color: var(--clr-white);
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.impressum a {
+  font-size: initial;
+  font-weight: initial;
+  text-decoration: underline;
+  text-transform: none;
+  letter-spacing: normal;
+  border: initial;
+  border-radius: initial;
+  background-color: initial;
+  color: var(--clr-rose);
+  padding: initial;
+  transition: initial;
+}

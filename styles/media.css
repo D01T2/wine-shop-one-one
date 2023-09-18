@@ -1,0 +1,197 @@
+/*we make the responsive design. From a width of 9600px the design will change*/
+@media (max-width: 960px) {
+  .body {
+    max-width: 100%;
+  }
+
+/*header*/
+  header {
+    all: unset;
+  }
+
+  .navi-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .profile-icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sign-menu {
+    padding-right: 4rem;
+  }
+
+  .menu-btn {
+    position: absolute;
+    top: 1em;
+    right: 0;
+    z-index: 11;
+  }
+
+/*home page*/
+  .top-site {
+    all: unset;
+    display: none;
+  }
+
+  .mobile-top-site {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../images/wine-glass.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    max-height: 100%;
+    padding-top:70%;
+    color: var(--clr-white);
+  }
+
+  .mobile-top-site h1 {
+    position: absolute;
+    bottom: 25%;
+    left: 12%;
+  }
+
+  .mobile-top-site a {
+    position: absolute;
+    bottom: 17%;
+    left: 40%;
+    padding: 0.5em;
+  }
+
+  .cards {
+    display: none;
+  }
+/*events and subscription - home page*/
+  .abo-events h2 {
+    padding-top: 1em;
+  }
+
+  .flip-card,
+  .flip-card-inner {
+    all: unset;
+  }
+
+  .flip-card-inner .weinabo,
+  .flip-card-inner .veranstaltung {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .flip-card-inner .weinabo h2,
+  .flip-card-inner .veranstaltung h2 {
+    padding-bottom: 0.5em;
+  }
+
+  .flip-card-inner .weinabo img,
+  .flip-card-inner .veranstaltung img {
+    all: unset;
+    width: 100%;
+    order: 1;
+  }
+
+  .subscription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ /*Products*/ 
+  .products {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .product {
+    margin: 1em 2em;
+  }
+
+  .product > details {
+    padding: 0.5em;
+  }
+
+/*events*/  
+  .tab-list {
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .events {
+    display: flex;
+    flex-direction: column;
+  }
+/*contact*/ 
+  .formular {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 100%;
+    margin-bottom: 1.5em;
+  }
+
+  .mapcontact {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    -moz-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.51);
+  }
+
+  .mycontact {
+    display: flex;
+    flex-direction: column;
+  }
+/* footer  */
+  footer {
+    all: unset;
+  }
+
+  footer nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+  }
+
+  footer nav ul li {
+    margin: 5px;
+  }
+  footer nav ul li:first-child {
+    all: unset;
+    color: var(--clr-white);
+    padding: 1em;
+  }
+  footer nav ul li:last-child {
+    border: 2px solid var(--clr-red);
+    border-radius: 10px;
+  }
+}

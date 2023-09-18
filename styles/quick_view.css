@@ -1,0 +1,89 @@
+
+.quick-view form{
+  padding:2rem;
+  border-radius: .5rem;
+  width: 70%;
+  background-color: var(--clr-white);
+  margin: 1rem auto;
+}
+
+.quick-view form .row{
+  display: flex;
+  align-items: center;
+  gap:1.5rem;
+  flex-wrap: wrap;
+}
+
+.quick-view form .row .image-container{
+  margin-bottom: 2rem;
+  flex:1 1 40rem;
+}
+
+.quick-view form .row .image-container .main-image img{
+  height: 30rem;
+  width: 100%;
+  object-fit: contain;
+}
+
+.quick-view form .row .image-container .sub-image{
+  display: flex;
+  gap:1.5rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.quick-view form .row .image-container .sub-image img{
+  height: 7rem;
+  width: 10rem;
+  object-fit: contain;
+  padding:.5rem;
+  cursor: pointer;
+  transition: .2s linear;
+}
+
+.quick-view form .flex .image-container .sub-image img:hover{
+  transform: scale(1.1);
+}
+
+.quick-view form img{
+  width: 100%;
+  height: 20rem;
+  object-fit: contain;
+  margin-bottom: 2rem;
+}
+
+.quick-view form .row .content{
+  flex:1 1 40rem;
+}
+
+.quick-view form .row .content .name{
+  font-size: 2rem;
+  color:var(--clr-deep-black);
+}
+
+.quick-view form .row .flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:1rem;
+  margin:1rem 0;
+}
+
+.quick-view form .row .flex .qty{
+  width: 7rem;
+  padding:1rem;
+  font-size: 1.8rem;
+  color:var(--clr-deep-black);
+  border-radius: .5rem;
+}
+
+.quick-view form .row .flex .price{
+  font-size: 2rem;
+  color:var(--red);
+}
+
+.quick-view form .row .content .details{
+  font-size: 1.6rem;
+  color:var(--clr-black);
+  line-height: 2;
+}  

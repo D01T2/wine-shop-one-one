@@ -1,0 +1,66 @@
+/* search page  */
+.search-form form{
+  max-width: 80%;
+  display: flex;
+  gap:1rem;
+  margin: 0 auto;
+}
+
+.search-form form input{
+  width: 100%;
+  font-size: 1.8rem;
+  border-radius: .5rem;
+  background-color: var(--clr-white);
+  color:var(--clr-black);
+  padding:1.4rem;
+}
+
+.search-form form button{
+  cursor: pointer;
+  text-align: center;
+  line-height: 5.5rem;
+  font-size: 2.5rem;
+  background-color: var(--clr-white);
+  color:var(--clr-black);
+  border-radius: .5rem;
+  width: 6rem;
+  height: 5.5rem;
+}
+
+.search-form form button:hover{
+  color: var(--clr-rose);
+  background-color: var(--clr-black);
+}/* search page  */
+
+.search-form form{
+  max-width: 80%;
+  display: flex;
+  gap:1rem;
+  margin: 0 auto;
+}
+
+.search-form form input{
+  width: 100%;
+  font-size: 1.8rem;
+  border-radius: .5rem;
+  background-color: var(--clr-white);
+  color:var(--clr-black);
+  padding:1.4rem;
+}
+
+.search-form form button{
+  cursor: pointer;
+  text-align: center;
+  line-height: 5.5rem;
+  font-size: 2.5rem;
+  background-color: var(--clr-white);
+  color:var(--clr-black);
+  border-radius: .5rem;
+  width: 6rem;
+  height: 5.5rem;
+}
+
+.search-form form button:hover{
+  color: var(--clr-rose);
+  background-color: var(--clr-black);
+}

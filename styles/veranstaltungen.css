@@ -1,0 +1,56 @@
+/*events*/
+.tab-list {
+  text-align: center;
+}
+
+.tab-list-item {
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  padding: 1em;
+}
+
+.tab-list-item a {
+  padding: 5px;
+}
+
+.event1,
+.event2,
+.event3 {
+  margin: 1.5em;
+  padding: 1em 0;
+  color: var(--clr-white);
+  text-align: center;
+}
+
+.event3 {
+  border: none;
+}
+
+.event1 h2,
+.event2 h2,
+.event3 h2 {
+  padding-top: 1em;
+}
+
+.event1 img,
+.event2 img {
+  width: 70%;
+  -moz-box-shadow: 5px 5px 15px 5px rgba(255,255,255,0.51);
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(255,255,255,0.51);
+  box-shadow: 5px 5px 15px 5px rgba(255,255,255,0.51);
+}
+
+iframe {
+  width: 70%;
+  height: 80vh;
+  margin-top: 0.5em;
+  border-radius: 5px;
+}
+
+.event1 p,
+.event2 p,
+.event3 p {
+  width: 70%;
+  margin: 0 auto;
+}
